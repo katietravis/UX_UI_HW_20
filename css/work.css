@@ -1,33 +1,7 @@
 /* Cards */
-.content {
-    padding: 50px;
-  }
-  .sectionHeading {
-    text-align: center;
-  }
-  .showsNear  {
-    padding: 0px 30px 30px 30px;
-  }
-  .cardContainer {
-    text-align: center;
-  }
-
-  .card-case-study {
-    opacity: 1;
-  }
-  
-  /* Content */
-  .sideAccent {
-    background: #007bff;
-    width: 15px;
-  }
-  .imageContainer img {
-    width: 100%;
-  }
-  .imageContainer {
-    padding: 50px;
-  }
-  .valueProp {
-    margin-top: 15px;
-    margin-bottom: 15px;
+.cardContainer {
+  margin-bottom: 15px;
+}
+.card {
+  margin: 0 auto;
   }
