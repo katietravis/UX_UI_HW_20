@@ -62,8 +62,6 @@ body, html {
     padding: 20px 20px;
     /* Position and center the image to scale nicely on all screens */
     background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     opacity: 1;
     }
@@ -86,18 +84,24 @@ h2 {
     }
 
 h3 {
-        font-size: 22px;
-        color: white;
-        font-weight: bold;
-        }
-
-h4 {
-    font-size: 18px;
+    font-size: 28px;
     color: white;
+    justify-content: center;
+    }        
+        
+h4 {
+    font-size: 28px;
+    color: #414141;
     font-weight: bold;
-     }        
+     }  
+     
+.card-body h4 {
+    font-size: 28px;
+    color: #414141;    
+}
 
 h5 {
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -107,14 +111,18 @@ p {
     font-weight: lighter;
     }
 
+.p2 {
+    color: #414141;
+    }
+
 li {
     font-size: 20px;
     color: white;
     font-weight: lighter;
 }
 
-/* Style buttons */
-button {
+/* Button */
+    .button {
     background-color: #30ccb9;
     color: white;
     border: 0;
@@ -123,35 +131,51 @@ button {
     font-size: 20px;
     margin-top: 40px;
     text-decoration: none;
+    border-radius: 5px;
     }
 
-    .button {
+    .cardContainer .button {
         background-color: #30ccb9;
         color: white;
-        border: 0;
-        padding: 14px 40px;
-        text-align: center;
-        font-size: 20px;
-        margin-top: 60px;
         text-decoration: none;
-        }
+    }
 
     /* Button states */
-    .button a:hover {
+    .button:hover {
+        opacity: 0.7;
         text-decoration: none;
-        background-color: #1c9c98;
+        color: white;             
         }
 
         /* Button states */
-    .button a:active {
-       text-decoration: none;
+    .button:active {
+        text-decoration: none;
+        color: white;
+    }
+
+    button:hover {
+        opacity: 0.7;
+        text-decoration: none;
+        color: white;        
         }
+
+        /* Button states */
+    button:active {
+        text-decoration: none;
+        color: white;
+    }
+
+/* End button */
 
 
 .container .button {
 text-decoration: none;
 color: white;
 background-color: #30ccb9;
+}
+
+.cardContainer {
+border-radius: 20px;
 }
         
 /* Footer Styles */
@@ -178,31 +202,34 @@ background-color: #30ccb9;
     }
     
         footer a {
-            color: white;
+        color: white;
         }
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
+    padding: 16px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
+    background-color: #30ccb9;
+    border-radius: 100px;
+    margin-top: 100px;    
     }
   
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
     text-decoration: none;
-    color: #b7b7b7; 
-  }
+    color: white;
+    }
   
   /* Set a specific color for each brand */
   
   /* LinkedIn */
   .fa-linkedin {
-    color: white;
-  }
+    color: white;    
+    }
   
   /* Twitter */
   .fa-twitter {
