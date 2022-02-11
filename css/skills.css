@@ -1,3 +1,9 @@
+#skills .container .section-heading {
+color: white;
+text-align: center;
+padding: 20px;
+}
+
 /* cards */
 .p .li {
 margin-bottom: 0 auto;

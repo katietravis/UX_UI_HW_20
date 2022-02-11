@@ -193,18 +193,12 @@ border-radius: 20px;
     }
 
     footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: flex;       
         height: 100px;
         margin-bottom: 0;
         opacity: 1;
     }
     
-        footer a {
-        color: white;
-        }
-
 /* Style all font awesome icons */
 .fa {
     padding: 16px;
@@ -214,7 +208,8 @@ border-radius: 20px;
     text-decoration: none;
     background-color: #30ccb9;
     border-radius: 100px;
-    margin-top: 100px;    
+    margin-top: 100px;   
+    
     }
   
   /* Add a hover effect if you want */
@@ -228,7 +223,8 @@ border-radius: 20px;
   
   /* LinkedIn */
   .fa-linkedin {
-    color: white;    
+    color: white;
+    align-items: center;    
     }
   
   /* Twitter */
