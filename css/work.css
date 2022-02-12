@@ -9,7 +9,7 @@ text-align: center;
 }
 
 .container-fluid {
-  align-items: center;
+  align-items: center;  
   }
 
 /* Cards */
@@ -22,7 +22,7 @@ text-align: center;
   color: #414141;
   border: none;
   align-items: center;
-  padding: 40px;
+  padding: 50px;
   }
 
   .card-text {
@@ -30,6 +30,12 @@ text-align: center;
     font-size: 24px;
     padding: 14px;
     }
+
+    .card-text-title2 {
+      color: #414141;
+      font-weight: normal;
+      font-size: 20px;     
+      }
     
 .card-body {
   text-align: center;
@@ -67,7 +73,7 @@ padding: 14px;
 
 /* Button states */
 .button2:hover {
-  opacity: 0.7;
+  opacity: 0.2;
   text-decoration: none;
   color: white;             
   }
@@ -89,6 +95,7 @@ padding: 14px;
   text-decoration: none;
   color: white;
 }
+
 /* End button */
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
