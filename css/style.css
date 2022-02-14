@@ -1,6 +1,7 @@
 #logo-container img {
     width: 100%;
     height: auto;
+    margin-left: 20px;
  }
 
 /* Style the header */
@@ -71,8 +72,20 @@ body, html {
     opacity: 1;
     }
 
+#skills .card-text-contact-2 {
+        text-align: left;
+        color: #414141;
+        font-size: 20px;
+        padding: 14px;  
+        margin-top: 60px;  
+    }
+
+.section-heading-2 {
+    text-align: left;
+}
+
 /* Style typography */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     font-family: 'Lato', sans-serif;
 }
 
@@ -94,20 +107,15 @@ h3 {
     justify-content: center;
     }        
         
-h4 {
-    font-size: 28px;
-    color: #414141;
-    font-weight: bold;
+#skills h4 {
+    font-size: 22px;
+    color: white; 
+    margin-top: 30px;   
      }  
      
 .card-body h4 {
     font-size: 28px;
     color: #414141;    
-}
-
-h5 {
-    font-size: 22px;
-    font-weight: bold;
 }
 
 p {
@@ -209,7 +217,7 @@ border-radius: 20px;
     
 /* Style all font awesome icons */
 .fa {
-    padding: 12px 12px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     background-color: #30ccb9;
