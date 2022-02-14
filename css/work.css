@@ -25,7 +25,7 @@ text-align: center;
   margin-bottom: 15px; 
 }
 
-.card {
+.card-container .card-gray {
   margin: 0 auto;
   color: #414141;
   border: none;

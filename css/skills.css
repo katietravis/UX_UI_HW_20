@@ -2,6 +2,7 @@
 color: white;
 text-align: center;
 padding: 20px;
+margin-bottom: 50px;
 }
 
 /* cards */
@@ -16,6 +17,7 @@ margin-bottom: 200px;
 }
 
 .card .card-items {
+color: #414141;
 margin-left:40px;
 margin-right:60px;
 }
@@ -26,6 +28,7 @@ width:25%;
 
 .icon { 
     transition: all .2s ease-in-out; 
+    text-align: left;
     }
     
     .icon:hover { 

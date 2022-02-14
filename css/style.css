@@ -34,16 +34,10 @@
 /* Format nav links */
 .header-right a {
     float: right;
-    padding: 50px;
+    padding: 20px;
     }
 
     * Change the background color on mouse-over */
-        .header-right a:hover {
-            background-color: #30ccb9;
-            color: white;
-            text-decoration: none;
-            }
-
         /* Style the active/current link*/
         .header-right a.active {
             background-color: #30ccb9;
@@ -51,6 +45,12 @@
             text-decoration: none;
             }
 
+            .header-right a:hover {
+                background-color: #30ccb9;
+                color: white;
+                text-decoration: none;
+                }
+    
 body, html {
     height: 100%;
     width: 100%;
