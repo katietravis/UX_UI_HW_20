@@ -81,8 +81,29 @@ body, html {
         margin-top: 60px;  
     }
 
-.section-heading-2 {
+#skills .card-text-about-2 {
+        text-align: left;
+        color: #414141;
+        font-size: 20px;
+        padding: 14px;  
+        margin-top: 60px;  
+    }
+
+#skills .card-text-about-2 {
+        text-align: left;
+        color: #414141;
+        font-size: 20px;
+        padding: 14px;  
+        margin-top: 60px;  
+    }
+
+.card-about {
+    width: 50%;
+}
+
+#skills .section-heading {
     text-align: left;
+    bottom-margin: 50px;
 }
 
 /* Style typography */
