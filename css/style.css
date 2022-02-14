@@ -31,7 +31,7 @@
         position: flex;
         }
 
-        /* Change the background color on mouse-over */
+    /* Change the background color on mouse-over */
         .header a:hover {
             background-color: #30ccb9;
             color: white;
@@ -139,7 +139,7 @@ li {
     border-radius: 5px;
     }
 
-    .cardContainer .button {
+    .card-container .button {
         background-color: #30ccb9;
         color: white;
         text-decoration: none;
@@ -172,14 +172,13 @@ li {
 
 /* End button */
 
-
 .container .button {
 text-decoration: none;
 color: white;
 background-color: #30ccb9;
 }
 
-.cardContainer {
+.card-container {
 border-radius: 20px;
 }
 
@@ -187,11 +186,6 @@ border-radius: 20px;
     text-align: center;
 }
 
-.card-text-case-study {
-    font-size: 24px;
-    color: #414141;
-}
-        
 /* Footer Styles */
 .footer {
     display: flex;
