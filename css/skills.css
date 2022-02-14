@@ -15,16 +15,6 @@ margin-top: 25px;
 margin-bottom: 200px;
 }
 
-#skills .card {
-background-image: url("../images/card.png");
-background-size:cover ;
-height:565px;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom:20px;
-}
-
 .card .card-items {
 margin-left:40px;
 margin-right:60px;
@@ -33,3 +23,11 @@ margin-right:60px;
 .card .card-items .card-icon {
 width:25%;
 }
+
+.icon { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .icon:hover { 
+    transform: scale(1.1); 
+    }
