@@ -27,10 +27,9 @@ text-align: center;
 
 .card-container .card {
   margin: 0 auto;
-  color: #414141;
+  background-color: white;
   border: none;
-  align-items: center;
-  padding: 20px;
+  align-items: center;  
   }
 
   .card-text {
@@ -56,7 +55,6 @@ text-align: center;
 }
 
 .card-container .card-text {
-color: #414141;
 font-size: 20px;
 padding: 14px;
 }
