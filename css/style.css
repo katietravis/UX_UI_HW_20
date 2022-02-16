@@ -208,13 +208,25 @@ li {
 /* End button */
 
 .container .button {
-text-decoration: none;
-color: white;
-background-color: #30ccb9;
+    text-decoration: none;
+    color: white;
+    background-color: #30ccb9;
 }
 
-.card-container {
-border-radius: 20px;
+/* Case study style */
+
+.card-case-study {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+.card-case-study .card-title {
+    color: #414141;
+}
+
+.card-case-study .card-text {
+    color: #414141;
 }
 
 .card-body {

@@ -21,17 +21,6 @@ text-align: center;
   }
 
 /* Cards */
-.card-container {
-  margin-bottom: 15px; 
-}
-
-.card-container .card {
-  margin: 0 auto;
-  background-color: white;
-  border: none;
-  align-items: center;   
-  }
-
   .card-text {
     color: #414141;
     font-size: 24px;
