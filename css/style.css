@@ -213,6 +213,10 @@ li {
     background-color: #30ccb9;
 }
 
+.card {
+    padding: 20px; 
+}
+
 /* Case study style */
 
 .card-case-study {
