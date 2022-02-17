@@ -18,8 +18,7 @@
 .logo {
     height: 80px;
     width: 400px;
-    position: flex;
-    margin-left: 20px;
+    position: flex;    
     }
 
 /* Style the header nav links */
@@ -31,7 +30,7 @@
         text-decoration: none;
         font-size: 16px;
         line-height: 25px;
-        border-radius: 4px;
+        border-radius: 5px;
         position: flex;
         }
 
@@ -64,7 +63,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-    
+   
 /* Container for hero image */
 .container {    
     height: 70%;
@@ -198,20 +197,19 @@ li {
 
 /* Resume button */
     .button-resume {
+        transition: all .2s ease-in-out;
         background-image: linear-gradient(to right, #1C9C98, #30ccb9);
         color: white;        
-        padding: 14px 40px;
+        padding: 18px 40px;
         text-align: center;
         font-size: 20px;
-        margin-top: 40px;
         text-decoration: none;
         border-radius: 5px;
-        margin-top: 40px !important;
         }
 
     /* Resume button states */
     .button-resume:hover {
-        opacity: 0.7;
+        transform: scale(1.2); 
         text-decoration: none;
         color: white;             
         }
@@ -220,12 +218,6 @@ li {
         text-decoration: none;
         color: white;
     }
-
-    .button-resume:hover {
-        opacity: 0.7;
-        text-decoration: none;
-        color: white;        
-        }      
     /* End button */
 
     .card-container .button {
@@ -241,11 +233,16 @@ background-color: #30ccb9;
 }
 
 .card-container {
-border-radius: 20px;
+border-radius: 10px;
 }
 
 .card-body {
     text-align: center;
+}
+
+.card-index {
+    text-align: left;
+    width: 90%;
 }
 
 /* Footer Styles */
@@ -285,7 +282,6 @@ border-radius: 20px;
   /* Add a hover effect if you want */
   .fa:hover {
     transform: scale(1.2); 
-    opacity: 0.7;
     text-decoration: none;
     color: white;
     }

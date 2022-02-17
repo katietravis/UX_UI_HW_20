@@ -35,9 +35,11 @@ margin-bottom: 0 auto;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: flex-end;    
+    align-items: flex-end; 
+    border-radius: 10px;
 }
 
 .card-skills {
     padding: 50px;
+    border-radius: 10px;    
 }
