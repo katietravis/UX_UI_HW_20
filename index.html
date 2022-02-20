@@ -51,76 +51,83 @@
 
 </head>
 
-<!-- Header nav HTML -->
+<!-- Logo -->
 <div class="header">
-  <div id="logo-container"><a href="index.html"><img src="images/logo-final-white.png" alt="Katie Travis logo"></a></div>
+  <div id="logo-container"><a href="index.html"><img src="images/logo-final-gray.png" alt="Katie Travis logo"></a></div>
 
-   <nav>
-    <div class="header-right">
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</nav>       
+<!-- Header nav -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="work.html">Work</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </div>  
 </header>
+<!-- End header nav -->   
+
 
 <body>
+  <section class="introduction"><!-- Open section -->
     <!-- Introduction -->
-    <div class="container">
+    <div class="container col-lg-8 col-md-12 col-sm-12">
       <div class="card-body">
-        <h1>Hi there! I'm Katie, a UX/UI designer with a background in graphic design and marketing.</h1>
-        <hr>
-        <p>My preferred style is minimalistic, bold, and memorable. Throughout my career I've worked as an in-house graphic designer at a publishing house, a realty company, an investment firm, and a four-year private university. 
-            I've worked remotely and as a freelancer as well.</p> 
+        <div class="display">Hi there! I'm Katie, a graphic designer with a background in marketing. I recently graduated with a certificate in UX/UI design.</div>
+      <hr>
+      <h5>My preferred style is minimalistic, bold, and memorable. Throughout my career I've worked as an in-house graphic designer at a publishing house, a realty company, an investment firm, and a four-year private university. 
+          I've worked remotely and as a freelancer as well.</h5>   
+      </div>      
             <div class="card-body">
-              <a href="https://drive.google.com/file/d/1gwLj1bi0IJcot8wrmG9PqcjL2ZpV5KtY/view?usp=sharing" class="button-resume" target="_blank">Download resume</a>
+              <a href="https://drive.google.com/file/d/1gwLj1bi0IJcot8wrmG9PqcjL2ZpV5KtY/view?usp=sharing" class="button-resume" target="_blank">See resume</a>            
+              <a href="contact.html" class="button-contact" target="_blank">Contact me</a>            
             </div>
-      </div>
     </div>
-
-    <!-- Open row -->      
-      <section class="container-fluid"><!-- Open container fluid -->
+  </section><!-- Close section -->
+    
+<!-- Open row -->      
+      <section class="container-fluid"><!-- Open section -->
         <div class="row">
-          <div class="card-container col-lg-3 col-md-12 col-sm-12">
+
+          <div class="card-container col-lg-4 col-md-12 col-sm-12">
             <div class="card">
               <img src="images/pantala-cover.png" class="card-img-top" alt="Pantala">
-              <div class="card-body">                
-                <a href="pantala-case-study.html" class="button" target="_blank">See case study</a>
+              <div class="card-preview">                
+                <a href="pantala-case-study.html" class="button2" target="_blank">Case study</a>
+                <a href="#" class="button2" target="_blank">Prototype</a>
               </div>
             </div>
           </div>
       
-          <div class="card-container col-lg-3 col-md-12 col-sm-12">
+          <div class="card-container col-lg-4 col-md-12 col-sm-12">
             <div class="card">
-              <img src="images/ftc-cover-final.png" class="card-img-top" alt="Federal Trade Commission">
-              <div class="card-body">               
-                <a href="ftc-case-study.html" class="button" target="_blank">See case study</a>
+              <img src="images/ftc-cover.png" class="card-img-top" alt="Federal Trade Commission">
+              <div class="card-preview">               
+                <a href="ftc-case-study.html" class="button2" target="_blank">Case study</a>
+                <a href="#" class="button2" target="_blank">Prototype</a>
+              </div>
+            </div>
+          </div>      
+             
+          <div class="card-container col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="images/lemonzest-cover.png" class="card-img-top" alt="Lemonzest">
+              <div class="card-preview">               
+                <a href="lemonzest-case-study.html" class="button2" target="_blank">Case study</a>
+                <a href="https://xd.adobe.com/view/c5998e8c-3366-4e39-9328-545286d78277-90ca/?fullscreen" class="button2" target="_blank">Prototype</a>
               </div>
             </div>
           </div>
-      
-          <div class="card-container col-lg-3 col-md-12 col-sm-12">
-            <div class="card">
-              <img src="images/habitat-cover-final.png" class="card-img-top" alt="Habitat for Humanity">
-              <div class="card-body">                
-                <a href="habitat-case-study.html" class="button" target="_blank">See case study</a>
-              </div>
-            </div>
-          </div>
-      
-          <div class="card-container col-lg-3 col-md-12 col-sm-12">
-            <div class="card">
-              <img src="images/lemonzest-cover-final.png" class="card-img-top" alt="Lemonzest">
-              <div class="card-body">               
-                <a href="lemonzest-case-study.html" class="button" target="_blank">See case study</a>
-              </div>
-            </div>
-          </div>
-        </section><!-- Close row -->
+        </section><!-- Close section -->
              
 </div><!-- Close container fluid -->
+</body>
+
 
 <!-- Footer HTML -->
 <div class="footer">

@@ -41,85 +41,71 @@
 
 <!-- Header nav HTML -->
 <div class="header">
-  <div id="logo-container"><a href="index.html"><img src="images/logo-final-white.png" alt="Katie Travis logo"></a></div>
+  <div id="logo-container"><a href="index.html"><img src="images/logo-final-gray.png" alt="Katie Travis logo"></a></div>
+<!-- NEW header nav -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   <nav>
-    <div class="header-right">
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a class="active" a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</nav>       
+<div class="topnav" id="myTopnav">
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="work.html" class="active">Work</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!-- End header nav -->
 </div>  
 </header>
 
 <body>
-    <div class="container-fluid-content">
-       <div class="row showsNear">
+    
+<!-- Open row -->      
+      <section class="container-fluid"><!-- Open section -->
+        <h3>Case studies</h3>
+        <div class="row">
 
-<!-- NEW cards -->       
-      <section class="my-work">
-        <div class="container-fluid"><!-- Open container fluid -->
-          <h2 class="section-heading">UI/UX case studies</h2>
-          <div class="row">
-
-            <div class="card-container col-lg-6 col-md-6 col-sm-12">
-              <div class="card">    
-                <img src="images/case-studies-pantala.png" class="card-img-top" alt="Pantala case study">           
-                <div class="card-body">
-                  <h2 class="card-title">Pantala</h2>                  
-                  <p class="card-text">App design case study that explores how and why families travel</p>
-                  <a href="pantala-case-study.html" class="button">See case study</a>
-                </div>
-              </div>
-            </div>
-        
-            <div class="card-container col-lg-6 col-md-6 col-sm-12">
-              <div class="card">
-                <img src="images/case-studies-ftc.png" class="card-img-top" alt="Federal Trade Commission case study">
-                <div class="card-body">
-                  <h2 class="card-title">Federal Trade Commission</h2>
-                  <p class="card-text">Responsive website redesign for a government agency</p>
-                  <a href="#" class="button">See case study</a>
-                </div>
-              </div>
-            </div>
-        
-            <div class="card-container col-lg-6 col-md-6 col-sm-12">
-              <div class="card">
-                <img src="images/case-studies-habitat.png" class="card-img-top" alt="Habitat for Humanity case study">
-                <div class="card-body">
-                  <h2 class="card-title">Habitat for Humanity</h2>
-                  <p class="card-text">Responsive website redesign for a well-known charitable organization</p>
-                  <a href="#" class="button">See case study</a>
-                </div>
-              </div>
-            </div>
-        
-            <div class="card-container col-lg-6 col-md-6 col-sm-12">
-              <div class="card">
-                <img src="images/case-studies-lemonzest.png" class="card-img-top" alt="Lemonzest case study">
-                <div class="card-body">
-                  <h2 class="card-title">Lemonzest</h2>
-                  <p class="card-text">Introducing Lemonzest, a highly personalized recipe app</p>
-                  <a href="#" class="button">See case study</a>
-                </div>
+          <div class="card-container col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="images/pantala-cover.png" class="card-img-top" alt="Pantala">
+              <div class="card-preview">                
+                <a href="pantala-case-study.html" class="button2" target="_blank">Case study</a>
+                <a href="#" class="button2" target="_blank">Prototype</a>
               </div>
             </div>
           </div>
-        
-        </section><!-- Close row -->
+      
+          <div class="card-container col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="images/ftc-cover.png" class="card-img-top" alt="Federal Trade Commission">
+              <div class="card-preview">               
+                <a href="ftc-case-study.html" class="button2" target="_blank">Case study</a>
+                <a href="#" class="button2" target="_blank">Prototype</a>
+              </div>
+            </div>
+          </div>      
              
-        </div><!-- Close container fluid -->
-        
-        <!-- Footer HTML -->
-        <div class="footer">
-            <!-- Add font awesome icons -->
-            <a href="https://www.linkedin.com/in/lilyflycreative/" target="_blank" class="fa fa-linkedin"></a>
-            <a href="https://twitter.com/lilyflycreative" target="_blank" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/katie.t.johnson.35/" target="_blank" class="fa fa-instagram"></a>
-        </div>
-        
-        </body>
-        </html>
+          <div class="card-container col-lg-4 col-md-12 col-sm-12">
+            <div class="card">
+              <img src="images/lemonzest-cover.png" class="card-img-top" alt="Lemonzest">
+              <div class="card-preview">               
+                <a href="lemonzest-case-study.html" class="button2" target="_blank">Case study</a>
+                <a href="https://xd.adobe.com/view/c5998e8c-3366-4e39-9328-545286d78277-90ca/?fullscreen" class="button2" target="_blank">Prototype</a>
+              </div>
+            </div>
+          </div>
+        </section><!-- Close section -->
+             
+</div><!-- Close container fluid -->
+</body>
+
+<!-- Footer HTML -->
+<div class="footer">
+  <!-- Add font awesome icons -->
+  <a href="https://www.linkedin.com/in/lilyflycreative/" target="_blank" class="fa fa-linkedin"></a>
+  <a href="https://twitter.com/lilyflycreative" target="_blank" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/katie.t.johnson.35/" target="_blank" class="fa fa-instagram"></a>
+</div>
+
+</html>

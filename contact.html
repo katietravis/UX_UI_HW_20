@@ -40,43 +40,80 @@
        
 <!-- Header nav HTML -->
 <div class="header">
-  <div id="logo-container"><a href="index.html"><img src="images/logo-final-white.png" alt="Katie Travis logo"></a></div>
+  <div id="logo-container"><a href="index.html"><img src="images/logo-final-gray.png" alt="Katie Travis logo"></a></div>
 
-   <nav>
-    <div class="header-right">
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="work.html">Work</a>
-        <a class="active" a href="contact.html">Contact</a>
-    </div>
-</nav>       
+<!-- Header nav -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="contact.html" class="active">Contact</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="work.html">Work</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </div>  
 </header>
+<!-- End header nav -->   
         
 <body> 
-<section id="skills">    
-<!-- Add columns, rows, and cards Below -->    
-    <div class="container">
-      <h2 class="section-heading-2">Contact me</h2>
-        <div class="row">
-            
-            <div class="card-container col-lg-12 col-md-12 col-sm-12"> 
-              <div class="card-white">
-                <div class="card-text-contact">
-                    <h4>Email</h4>
-                    <li>katiejohnsongraphics@gmail.com</li>
-                    <h4>Phone</h4>
-                    <li>423.312.0229</li>                                        
-                </div>
-              </div>
-          </div>
-        
-        </div>
-    </div>
+<section id="skills"> 
 
-  </section><!-- Close row -->
-             
-</div><!-- Close container fluid -->
+  <div class="container col-lg-8 col-md-12 col-sm-12">
+
+  <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="button2">Sign in</button>
+  </form>
+
+</div>
+</section><!-- Close row -->
+
 
 <!-- Footer HTML -->
 <div class="footer">

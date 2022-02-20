@@ -38,46 +38,53 @@
      <link rel="stylesheet" href="css/index.css">
      <header>
        
-<!-- Header nav HTML -->
+<!-- Header nav -->
 <div class="header">
-  <div id="logo-container"><a href="index.html"><img src="images/logo-final-white.png" alt="Katie Travis logo"></a></div>
-   <nav>
-    <div class="header-right">
-        <a class="active" a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</nav>       
+  <div id="logo-container"><a href="index.html"><img src="images/logo-final-gray.png" alt="Katie Travis logo"></a></div>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="work.html">Work</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </div>  
 </header>
+<!-- End header nav -->   
         
 <body> 
 <section id="skills">    
 <!-- Add columns, rows, and cards Below -->    
     <div class="container">
-      <h2 class="section-heading">About me</h2>
         <div class="row">
             
-            <div class="card-container col-lg-12 col-md-12 col-sm-12"> 
+            <div class="card-container col-lg-12"> 
               <div class="card-about">
-                <div class="card-text-about">                 
-                    <h4>Graphic designer for nine years, manager for four years. Recent graduate of a UX/UI boot camp.</h4>
-                    <p>Seeking midlevel work in interaction design or graphic design, preferably with focus on user experience.</p>
-                    <h4>Apps + Code</h4>
+                <div class="card-text-about">  
+                    <div class="h1">Graphic designer for nine years, manager for four years. Recent graduate of a UX/UI boot camp.</h1>
+                    <hr>
+                    <h5>Seeking midlevel work in interaction design or graphic design.</h5>
+                    <hr>
+                    <h5>Apps + Code</h5>
                       <li>XD, Photoshop, Illustrator, Indesign</li>
                       <li>InVision, Figma, Miro, Github</li>
                       <li>HTML, CSS, Bootstrap</li>
-                    <h4>Education</h4>
+                      <hr>
+                    <h5>Education</h5>
                       <li>BFA Graphic Design, Marketing Minor</li>
-                      <p>New Mexico State University (2010)</p>
+                      <p>(New Mexico State University, 2010)</p>
                       <li>UX/UI Design Certificate</li> 
-                      <p>University of Arizona (2022)</p>  
+                      <p>(University of Arizona, 2022)</p>  
                 </div>
               </div>
             </div>
           </div>
-        </div>
+    </div>
 </section>
 </body>
 

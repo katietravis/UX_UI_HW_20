@@ -3,10 +3,6 @@
     height: auto;
     }
 
-.resume {
-    height: 80%;
-}
-
 /* Style the header */
 .header {
     overflow: hidden;
@@ -16,8 +12,7 @@
     }
 
 .logo {
-    height: 80px;
-    width: 400px;
+    width: 300px;
     position: flex;    
     }
 
@@ -35,49 +30,89 @@
         }
 
 /* Format nav links */
-.header-right a {
+.header-right {
     padding: 20px;
-    flex-direction: row-reverse;
     justify-content: right;
     float: right;
     }
 
     * Change the background color on mouse-over */
         /* Style the active/current link*/
-        .header-right a.active {
+        .header-right:active {
             background-color: #30ccb9;
             color: white;
             text-decoration: none;
             }
 
-            .header-right a:hover {
-                background-color: #30ccb9;
+            .header-right:hover {
+                background-color: #1C9C98;
                 color: white;
                 text-decoration: none;
                 }
+
+/* NEW header */
+/* Add a black background color to the top navigation */
+.topnav {    
+    overflow: hidden;
+    font-size: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color:#414141;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:#30ccb9;
+    text-decoration: none;
+    color: white;
+    }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
     
 body, html {
-    height: 100%;
+    width: 100%;
     font-family: 'Lato', sans-serif;
-    background-image: url(../images/paper-sheets-background.jpg);
+    background-image: url(../images/white-sand-background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;    
 }
-   
+ 
 /* Container for hero image */
-.container {    
-    height: 70%;
-    width: 45%;
-    padding: 20px 20px;
+.container { 
+    text-align: left;  
+    padding: 50px 50px;
     /* Position and center the image to scale nicely on all screens */
     background-position: left;
     position: relative;
-    opacity: 1;
     }
+
+    #introduction .container { 
+        text-align: left;  
+        padding: 50px 50px;
+        /* Position and center the image to scale nicely on all screens */
+        background-position: left;
+        position: relative;
+        width:70px;
+        }
 
 #skills .card-text-contact-2 {
         text-align: left;
-        color: #414141;
+        color:#414141;
         font-size: 20px;
         padding: 14px;  
         margin-top: 60px;  
@@ -85,7 +120,7 @@ body, html {
 
 #skills .card-text-about-2 {
         text-align: left;
-        color: #414141;
+        color:#414141;
         font-size: 20px;
         padding: 14px;  
         margin-top: 60px;  
@@ -93,18 +128,16 @@ body, html {
 
 #skills .card-text-about-2 {
         text-align: left;
-        color: #414141;
+        color:#414141;
         font-size: 20px;
         padding: 14px;  
         margin-top: 60px;  
     }
 
 .card-about {
-    width: 50%;
-}
-
-.card-home {
-    width: 90%;
+    width: 60%;
+    color:#414141;
+    line-height: 2.0;
 }
 
 #skills .section-heading {
@@ -113,70 +146,110 @@ body, html {
 }
 
 /* Style typography */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
 }
 
-h1 {
-    font-size: 50px;
-    color: white;
+.display {
+    font-family: 'Lato', sans-serif;
+    color:#414141;
+    font-size: 45px;
+} 
+
+.card-text-about .h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    color:#414141;
     font-weight: lighter;
+    text-align: left;
     }
+
+.container .card-body h1 {
+        font-size: 42px;
+        color: white;
+        font-weight: lighter;
+        text-align: left;
+        }
 
 h2 {
     font-size: 30px;
-    color: white;
+    color:#414141;
     align-content: center;
     }
 
 h3 {
     font-size: 28px;
-    color: white;
-    justify-content: center;
-    }        
-        
-#skills h4 {
+    color:#414141;
+    text-align: left;
+    }
+    
+.card-text h4 {
+    font-weight: bolder;
+    font-size: 28px;
+    color:#414141;
+    }
+
+h5 {
     font-size: 22px;
-    color: white; 
-    margin-top: 30px;   
-     }  
+    font-weight: bolder;
+    color:#414141;
+}
+
+.card-body h5 {
+    font-size: 22px;
+    color:#414141;
+    line-height: 1.6;
+}
+
+#introduction h6 {
+    font-size: 24px;
+    color:#414141;    
+}
+
+.jumbotron .display-1 {
+    align-text: center;
+}
+        
+.card-text h4 {
+    font-size: 21px;
+    font-weight: bolder;
+    color:white; 
+    margin-top: 30px;      
+    }  
      
 .card-body h4 {
     font-size: 28px;
-    color: #414141;
+    color:#414141;
     margin-bottom: 5px;    
-}
-
-.footer .copyright .li {
-    font-size: 14px;
-    color: #414141;
 }
 
 p {
     font-size: 20px;
-    color: white;
+    color:#414141;
     font-weight: lighter;
+    text-align: left;
     }
 
 .p2 {
     font-size: 18px;
-    color: #414141;
+    color:#414141;
     padding: 20px;
 }
 
 li {
     font-size: 20px;
-    color: white;
+    color:#414141;
     font-weight: lighter;
+    padding: 2px;
+    text-align: left;
 }
 
 /* Button */
     .button {
     background-color: #30ccb9;
-    color: white;
-    border: 0;
-    padding: 14px 40px;
-    text-align: center;
+    color: white;    
+    padding: 14px;
+    align-items: left;
     font-size: 20px;    
     text-decoration: none;
     border-radius: 5px;
@@ -196,25 +269,28 @@ li {
 /* End button states */
 
 /* Resume button */
-    .button-resume {
-        transition: all .2s ease-in-out;
-        background-image: linear-gradient(to right, #1C9C98, #30ccb9);
+    .button-resume, .button-contact {
+        transition: all .3s ease-in-out;
+        background-image: linear-gradient(to right,#1C9C98,#30ccb9);
+        border-color:red;
+        border-width: thick;
         color: white;        
         padding: 18px 40px;
         text-align: center;
         font-size: 20px;
-        text-decoration: none;
         border-radius: 5px;
+        margin-bottom:30px;
         }
 
     /* Resume button states */
-    .button-resume:hover {
+    .button-resume:hover, .button-contact:hover {
         transform: scale(1.2); 
+        background-image: linear-gradient(to right,#30ccb9,#1C9C98);
         text-decoration: none;
         color: white;             
         }
 
-    .button-resume:active {
+    .button-resume:active, .button-contact:active {
         text-decoration: none;
         color: white;
     }
@@ -237,11 +313,18 @@ border-radius: 10px;
 }
 
 .card-body {
+    text-align: left;
+    width: 75%;
+}
+
+.card-preview {
     text-align: center;
+    width: 75%;
+    padding: 16px 20px;
 }
 
 .card-index {
-    text-align: left;
+    text-align: center;
     width: 90%;
 }
 
@@ -282,6 +365,7 @@ border-radius: 10px;
   /* Add a hover effect if you want */
   .fa:hover {
     transform: scale(1.2); 
+    background-color:#1C9C98;
     text-decoration: none;
     color: white;
     }
@@ -309,7 +393,7 @@ border-radius: 10px;
         float: none;
         display: block;
         text-align: left;
-       }
+        }
 
     .header-right {
         float: none;
@@ -322,7 +406,8 @@ border-radius: 10px;
   }
 
   @media (max-width: 500px) {
-    .logo {
+    .header .logo-container {
     text-align: center;
+    width: 100px;
     }
   }

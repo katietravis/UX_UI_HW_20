@@ -40,31 +40,38 @@
        
 <!-- Header nav HTML -->
 <div class="header">
-  <div id="logo-container"><a href="index.html"><img src="images/logo-final-white.png" alt="Katie Travis logo"></a></div>
+  <div id="logo-container"><a href="index.html"><img src="images/logo-final-gray.png" alt="Katie Travis logo"></a></div>
+<!-- NEW header nav -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   <nav>
-    <div class="header-right">
-        <a href="about.html">About</a>
-        <a class="active" a href="skills.html">Skills</a>
-        <a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</nav>       
+<div class="topnav" id="myTopnav">
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="skills.html" class="active">Skills</a>
+  <a href="work.html">Work</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </div>  
 </header>
-        
+<!-- End header nav -->   
+
+<!-- Body nav -->
+
 <body> 
 <section id="skills">    
 <!-- Add columns, rows, and cards Below -->    
     <div class="container">
-      <h2 class="section-heading">Design skill set</h2>
+      <h3>Design skill set</h3>
         <div class="row">
             
             <div class="card-container-skills col-lg-4 col-md-12 col-sm-12"> 
               <div class="card-skills">
                 <div class="icon"><img src="images/icon-1.png"></div>
                 <div class="card-text">
-                    <h3>UI design</h3>
+                    <h4>User interface (UI)</h4>
                     <li>Data visualization</li>
                     <li>Interaction design</li>
                     <li>Wireframes</li>
@@ -82,7 +89,7 @@
               <div class="card-skills">
                 <div class="icon"><img src="images/icon-2.png"></div>
                 <div class="card-text">
-                    <h3>Graphic design</h3>
+                    <h4>Visual communication</h4>
                     <li>Brand identity</li>
                     <li>Ad design</li>
                     <li>Icon design</li>
@@ -100,7 +107,7 @@
               <div class="card-skills">
                 <div class="icon"><img src="images/icon-3.png"></div>
                 <div class="card-text">
-                 <h3>UX research</h3>
+                 <h4>User experience (UX)</h4>
                     <li>A/B testing</li>
                     <li>User interviews</li>
                     <li>Survey creation</li>
@@ -117,7 +124,7 @@
         </div>
     </div>
 
-            </section>
+</section>
 </body>
 
 <!-- Footer HTML -->
