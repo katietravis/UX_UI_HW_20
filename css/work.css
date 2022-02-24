@@ -32,10 +32,6 @@
   display: none;
 }
 
-.jumbotron h1 {
-font-weight: lighter;
-}
-
 #skills .card-text-about li {
 color:#414141;
 text-align: left;
