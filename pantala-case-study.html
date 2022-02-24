@@ -44,23 +44,35 @@
 <div class="header">
   <div id="logo-container"><a href="index.html"><img src="images/logo-final-gray.png" alt="Katie Travis logo"></a></div>
 
-   <nav>
-    <div class="header-right">
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="work.html">Work</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</nav>       
+   <!-- Header nav -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+  <a href="skills.html">Skills</a>
+  <a href="work.html">Work</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </div>  
 </header>
+<!-- End header nav -->   
 
 <body>
     <div class="container-fluid-content">
       <div class="row showsNear">
       <section class="my-work">
         <div class="container-fluid">
-          <h3>Pantala case study</h3>
+
+          <div class="card-skills">
+            <div class="display">Pantala</div>
+            <h5>MOBILE APP DESIGN</h5>
+            <a href="#mobile-prototype" class="button2" target="_blank">See prototype</a>
+          </div>
+          
           <div class="row">
 
             <div class="card-container col-lg-4 col-md-12 col-sm-12">
@@ -76,7 +88,7 @@
             <div class="card-container col-lg-4 col-md-12 col-sm-12">
               <div class="card">
                 <div class="card-body">
-                  <h2 class="card-title">2. Research phase</h2>
+                  <h2 class="card-title">2. Research</h2>
                   <p class="card-text">Potential users were surveyed on their travel habits. Recurring themes included emphasis on family activities, organization, and affordability.</p>                  
                   <img src="images/pantala-research-phase.png" class="card-img-top" alt="Research phase">
                 </div>
@@ -86,7 +98,7 @@
             <div class="card-container col-lg-4 col-md-12 col-sm-12">
               <div class="card">
                 <div class="card-body">
-                  <h2 class="card-title">3. Problem statement</h2>
+                  <h2 class="card-title">3. Challenge</h2>
                   <p class="card-text">This case study aims to address the convoluted and inefficient travel booking process in a way that is accessible to parents and doesn't break the bank.</p>
                   <img src="images/pantala-problem-statement.png" class="card-img-top" alt="Problem statement">
                 </div>
@@ -96,8 +108,8 @@
             <div class="card-container col-lg-4 col-md-12 col-sm-12">
               <div class="card">
                 <div class="card-body">
-                  <h2 class="card-title">4. Ideation phase</h2>
-                  <p class="card-text">Low fidelity wireframes include an interactive map, saved favorites feature, an itinerary feature with opt-in alert capability, a community chat, and a budget tool.</p>
+                  <h2 class="card-title">4. Ideation</h2>
+                  <p class="card-text">Preliminary wireframes featured an interactive map, saved favorites feature, an itinerary feature with opt-in alert capability, a community chat, and a budget tool.</p>
                   <img src="images/pantala-ideation.png" class="card-img-top" alt="Ideation phase">
                 </div>
               </div>
@@ -106,7 +118,7 @@
             <div class="card-container col-lg-4 col-md-12 col-sm-12">
               <div class="card">
                 <div class="card-body">
-                  <h2 class="card-title">5. Prototyping phase</h2>
+                  <h2 class="card-title">5. Prototyping</h2>
                   <p class="card-text">During the prototyping phase, colors were added to generate excitement and exude sophistication. The onboarding process was mapped out as well.</p>
                   <img src="images/pantala-prototyping-phase.png" class="card-img-top" alt="Prototyping phase">
                 </div>
@@ -117,8 +129,7 @@
               <div class="card">
                 <div class="card-body">
                   <h2 class="card-title">6. Conclusion</h2>
-                  <p class="card-text">Future development will require consistently updated listings for lodging, eateries, and activities.</p>
-                  <a href="https://universityofarizona.invisionapp.com/console/share/TF34250HKR/808441373" target="_blank" class="button">See prototype</a>
+                  <p class="card-text">Users were able to successfully navigate the app during testing. Future development will require consistently updated listings for lodging, eateries, and activities.</p>
                   <img src="images/pantala-conclusion.png" class="card-img-top" alt="Ideation phase">
                 </div>
               </div>
@@ -126,18 +137,16 @@
 
           </div>
       
-    </section><!-- Close row -->
-             
+    </section><!-- Close row -->             
   </div><!-- Close container fluid -->
   
   <!-- Footer HTML -->
-  <div class="footer">
-      <!-- Add font awesome icons -->
-      <a href="https://www.linkedin.com/in/lilyflycreative/" target="_blank" class="fa fa-linkedin"></a>
-      <a href="https://twitter.com/lilyflycreative" target="_blank" class="fa fa-twitter"></a>
-      <a href="https://www.instagram.com/katie.t.johnson.35/" target="_blank" class="fa fa-instagram"></a>
-  </div>
-  
-  </body>
-  </html>
-  
+<div class="footer">
+  <!-- Add font awesome icons -->
+  <a href="https://www.linkedin.com/in/lilyflycreative/" target="_blank" class="fa fa-linkedin"></a>
+  <a href="https://twitter.com/lilyflycreative" target="_blank" class="fa fa-twitter"></a>
+  <a href="https://www.instagram.com/katie.t.johnson.35/" target="_blank" class="fa fa-instagram"></a>
+</div>
+
+</body>
+</html>

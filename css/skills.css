@@ -5,20 +5,18 @@ padding: 20px;
 margin-bottom: 50px;
 }
 
-#skills .section-heading h3 {
-    color:red;
-}
-
 /* cards */
 li {
 margin-bottom: 0 auto;
 font-size: 18px;
-color:white;
+color: white;
+font-weight: normal;
 }
 
 .icon { 
     transition: all .2s ease-in-out; 
     text-align: center;
+    align-items: center;
     }
     
     .icon:hover { 
@@ -27,23 +25,24 @@ color:white;
 
 /* Cards */
 #skills .container {
-    height: 100%;
+    width: 100%;
     padding: 10px;      
 }
 
 .card-container {
-    margin-bottom: 15px;          
+    margin-bottom: 15px;
+    align-items: center;          
 }
 
 .card-container-skills {
     margin-bottom: 15px; 
     background-color: #414141;
-    display: flex;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .card-skills {
     border-radius: 10px;
     padding: 40px;
-    margin-bottom: 20px;    
+    margin-bottom: 10px;
 }
