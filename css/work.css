@@ -51,27 +51,38 @@ text-align: left;
     align-items: center;
     }
 
-.container-fluid-content .h2 {
-text-align: center;
-width: 50%;
-}
+.container-fluid-content {
+      height: 100%;
+    }
 
 .container-fluid h4 {
   font-size: 22px;
   font-weight: bolder;
   color: #414141; 
-  margin-top: 30px;      
+  margin-top: 30px;  
   }  
+
+.container-fluid h5 {
+  font-size: 25px;
+  font-weight: normal;
+  color: #414141;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 12px;
+}
 
 .container-fluid {
   align-items: center;
   text-align: center; 
-  padding: 20px;
+  padding: 50px;
+  height: 100%;
+  width: 100%;    
   }
 
 /* Cards */
 .card-container {
   margin-bottom: 15px;
+  width: 100px;
 }
 
 .card-container .card {
@@ -80,9 +91,8 @@ width: 50%;
   align-items: center;
   padding: 12px;  
   border-radius: 20px;
-  border:none; 
+  border: none; 
   width: 600px;
-  background-color:white; 
   }
 
 /* Card states */
@@ -114,8 +124,8 @@ width: 50%;
     
 .card-title {
   color: #414141;
-  font-size: 33px;
-  font-weight: lighter; 
+  font-size: 36px;
+  font-weight: normal;
   padding: 2px; 
   text-align: center; 
 }
@@ -135,7 +145,7 @@ padding: 14px;
   background-color: #30ccb9;
   color: white;
   border: 0;
-  padding: 20px 36px;
+  padding: 18px 40px;
   text-align: center;
   font-size: 20px;
   font-weight: normal;
@@ -156,17 +166,9 @@ text-decoration: none;
   color: white;
 }
 
-  /* Button states */
-.button2:active {
-  text-decoration: none;
-  color: white;
-}
-
-/* End button */
-
 /* Button 3 */
 .button3 {
-  float: center;
+  float: left;
   background-color: #30ccb9;
   color: white;
   border: 0;
