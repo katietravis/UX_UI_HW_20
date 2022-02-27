@@ -113,7 +113,15 @@ body, html {
     transform: translateY(-15px);
   }
 } 
- 
+
+.contact-card {
+    padding: 20px;
+}
+
+.contact-card-disclaimer {
+    float: right;
+}
+
 /* Container for hero image */
 .container { 
     text-align: center;  
@@ -395,7 +403,7 @@ border-radius: 10px;
     background-color: #30ccb9;
     border-radius: 100px;
     justify-content: space-between;
-    align-items: flex-end; 
+    align-items: flex-end;
     }
   
   /* Add a hover effect if you want */
