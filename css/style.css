@@ -161,7 +161,7 @@ body, html {
     top-margin: 30px;
     width: 100%;
     margin-bottom: 60px;
-    padding: 30px;
+    padding: 40px;
 }
 
 #skills .section-heading {
@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 45px;
     font-weight: lighter;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 } 
 
 .display-case-study {
@@ -196,7 +196,7 @@ h1 {
     color: #414141;
     font-size: 35px;
     font-weight: lighter;
-    padding: 14px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -300,12 +300,13 @@ li {
 
 /* Button */
     .button {
-    background-image: linear-gradient(to right,#1C9C98,#30CCB9);
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to left,#1C9C98,#30CCB9);
     color: white;    
     padding: 16px 45px;
     align-items: center;
-    font-size: 20px;
-    font-weight: normal;    
+    font-size: 19px;
+    font-weight: normal;
     margin-left: 16px;
     border-radius: 10px;
     text-decoration: none;
